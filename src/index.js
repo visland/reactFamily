@@ -1,2 +1,10 @@
 /* 入口文件经过处理后，生成 bundle.js */
-document.getElementById('app').innerHTML = "Webpack works"
+import React from 'react';
+import ReactDom from 'react-dom';
+
+import getRouter from './router/router';
+
+ReactDom.render(
+  getRouter(),
+  document.getElementById('app')
+);
