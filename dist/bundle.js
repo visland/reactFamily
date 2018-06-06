@@ -21580,7 +21580,7 @@ var _Page2 = _interopRequireDefault(_Page);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var getRouter = function getRouter() {
-    _react2.default.createElement(
+    return _react2.default.createElement(
         _reactRouterDom.BrowserRouter,
         null,
         _react2.default.createElement(

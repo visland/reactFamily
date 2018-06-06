@@ -1,9 +1,10 @@
 // Below is ES2015 (ES6)
 import React, { Component } from 'react';
 
-// Below is React
-// React is a freamwork, a collection of libraries.
-// Or, React is a large library, which is similar to Processing.
+/** Below is React
+ *  React is a freamwork, a collection of libraries.
+ *  Or, React is a large library, which is similar to Processing.
+ */
 export class Hello extends Component {
     render() {
         return (
